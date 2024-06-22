@@ -16,7 +16,7 @@ export default function Github() {
 // })
 
     return (
-        <div className='bg-gray-700 text-white text-3xl p-4 m-4 text-center flex items-center justify-center gap-5'>
+        <div className=' text-gray-700 font-semibold text-3xl p-4 m-4 text-center flex items-center justify-center gap-5'>
              <img  src='https://avatars.githubusercontent.com/u/157643346?v=4' alt="Git-Picture" width={300}/>
              Username : {data.login}
             <br /> 
